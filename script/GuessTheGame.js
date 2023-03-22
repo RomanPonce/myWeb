@@ -9,6 +9,9 @@ const guessField = document.querySelector('.guessField');
 
 let guessCount = 1;
 let resetButton;
+guessField.focus();
+
+// Mechanics of the game
 
 function checkGuess() {
     const userGuess = Number(guessField.value);
@@ -51,6 +54,8 @@ function checkGuess() {
     document.body.append(resetButton);
     resetButton.addEventListener('click', resetGame);
   }
+
+// Reset the game
 
   function resetGame() {
     guessCount = 1;
