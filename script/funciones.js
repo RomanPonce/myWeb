@@ -111,8 +111,8 @@ console.log(radData.toUpperCase());
 
 // reemplazar string
 
-const browserType = 'mozilla';
-const updated = browserType.replace('moz','van');
+const browserTypeReplace = 'mozilla';
+const updated = browserTypeReplace.replace('moz','van');
 
 console.log(updated);      // "vanilla"
 console.log(browserType);  // "mozilla"
